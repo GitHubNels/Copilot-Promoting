@@ -1,0 +1,17 @@
+//Prompt to create a Test case in BDD cuccumber
+
+Generate a BDD feature file for Use Case that I am providing as: [Use Case].
+ENSURE:
+
+1. Add Examples for every scenario.
+
+
+2. Create both positive and negative scenarios.
+
+
+
+Use Case:
+Step1: Open the Orange HRM login page.
+Step2: Enter valid login credentials.
+Step3: Click on the login button.
+Step4: Verify that the login is successful by performing a validation
