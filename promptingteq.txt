@@ -8,3 +8,5 @@ Ask question in terminal to command:
 @terminal how to update the dependicies and update the node 
 
 @vscode - Realted issues
+
+@workspace - Manges workspac
