@@ -1,0 +1,66 @@
+1. Zero shot promting
+2. Few shot promting
+3. Chain of thought
+4. Role prompting
+5. Dual prompting
+
+1. Zero-Shot Prompting
+Definition:
+Zero-shot prompting involves giving a model a task without any examples. You rely on the model's general understanding of language and tasks.
+Use Case in Selenium Automation:
+You could ask the model directly:
+
+"Write a Selenium script in Python to log into a website using Gmail credentials."
+
+Outcome:
+The model will generate a basic script using its prior knowledge, possibly using webdriver, locating elements like email and password fields, and clicking login buttons. However, it might not handle edge cases or specific site behaviors.
+
+2. Few-Shot Prompting
+Definition:
+Few-shot prompting provides a few examples to guide the model's response.
+Use Case in Selenium Automation:
+You can give examples like:
+
+"Here’s how to open a browser and navigate to a page:
+
+Pythonfrom selenium import webdriver  driver = webdriver.Chrome()  driver.get('https://example.com')  Show more lines
+Now write a script to log into a website using Gmail."
+Outcome:
+The model uses the pattern from the examples to generate a more accurate and context-aware script, possibly including handling redirects to Gmail login, waiting for elements, and using WebDriverWait.
+
+3. Chain-of-Thought Prompting
+Definition:
+This technique involves asking the model to reason step-by-step before giving the final answer.
+Use Case in Selenium Automation:
+Prompt like:
+
+"Let’s think step-by-step. First, open the browser. Then go to the login page. Next, click the Gmail login button. Then enter email and password. Finally, submit the form. Now write the Selenium code."
+
+Outcome:
+The model breaks down the task logically and generates code that reflects each step, improving reliability and clarity.
+
+4. Role Prompting
+Definition:
+You assign a role to the model to guide its behavior or tone.
+Use Case in Selenium Automation:
+Prompt like:
+
+"You are a senior QA automation engineer. Write a robust Selenium script to log into a website using Gmail, including error handling and comments."
+
+Outcome:
+The model adopts the role and produces professional-grade code with best practices, such as using try-except, logging, and comments.
+
+5. Dual Prompting
+Definition:
+Dual prompting involves using two complementary prompts—one for reasoning and one for execution.
+Use Case in Selenium Automation:
+First prompt:
+
+"Explain how to automate Gmail login using Selenium."
+
+Second prompt:
+
+"Now write the Python code based on your explanation."
+
+Outcome:
+The first prompt ensures the model understands the task deeply, and the second prompt ensures accurate execution. This is especially useful for complex flows like OAuth or multi-step authentication.
