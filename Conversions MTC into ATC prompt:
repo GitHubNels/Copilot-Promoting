@@ -1,5 +1,9 @@
 Conversions MTC into ATC prompt:
 
+
+1. Prompt used to Create Page object class:
+-------------------------------------------
+
 Create a Page Object Class for the login page according the below manual steps. Import necessary libraries from selenium and define all necessary locators with their methods.
 Implement the Page Object Class for the webpage according to the below test steps having the correct locators, developing a class to encapsulate elements and methods. The code must strictly follow POM principles for maintainable and efficient automation.
 Strictly implement exception handling for each step.
@@ -13,3 +17,48 @@ Strictly use Expected Conditions wherever needed.
 Each operation should be encapsulated in a method with proper parameterization.
 
 Implement a logging mechanism to capture important actions and errors for debugging.
+
+
+2. Prompt to create page class
+-------------------------------
+
+Create a Page Object Class in Java Selenium for the Dashboard page according the the below manual teststeps. Import necessary libraries from selenium and define all necessary locators with their methods. Implement the Page Object Class for the webpage according to the below test step having the correct locators, developing a class to encapsulate elements and methods. The code must strictly follow POM principles for maintainable and efficient automation. Strictly implement exception handling for each step. Take reference from the Login.java LoginPage class. Include clear comments and documentation throughout the code. Adhere to the below Additional instructions.
+
+Include a class constructor.
+
+Strictly use Expected Conditions wherever needed.
+
+Each operation should be encapsulated in a method with proper parameterization.
+
+Implement a logging mechanism to capture important actions and errors for debugging.
+
+Consider parameterization for data-driven testing.
+
+
+Steps for Homepage Dashboard:
+
+a. Verify the page name as “Dashboard” for a successful login.
+
+
+b. Perform the validation task for the username.
+
+
+3. Final Steps:
+-----------------
+
+Creation of test script for the created page classes.
+
+Using the created page classes for the loginpage and dashboard page, create the test method using the below manual teststeps.
+
+Adhere to the below Additional instructions:
+
+Strictly use TestNG annotation tags accordingly.
+
+Implement setup and teardown methods also.
+
+The generated code should be able to handle exceptions.
+
+Implement a logging mechanism to capture important actions and errors for debugging.
+
+Consider parameterisation for data-driven testing.
+
