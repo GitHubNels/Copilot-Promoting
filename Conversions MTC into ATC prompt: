@@ -43,7 +43,7 @@ a. Verify the page name as “Dashboard” for a successful login.
 b. Perform the validation task for the username.
 
 
-3. Final Steps:
+3. Final Steps - Base class declaration
 -----------------
 
 Creation of test script for the created page classes.
@@ -61,4 +61,5 @@ The generated code should be able to handle exceptions.
 Implement a logging mechanism to capture important actions and errors for debugging.
 
 Consider parameterisation for data-driven testing.
+
 
