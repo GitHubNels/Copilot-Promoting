@@ -1,0 +1,15 @@
+Role: Python Selenium Automation
+Instructions: Create a Page Object Class for the login page according the the below manual steps. Import necessary libraries from selenium and define all necessary locators with their methods. Implement the Page Object Class for the webpage according to the below test steps having the correct locators, developing a class to encapsulate elements and methods. The code must strictly follow POM principles for maintainable and efficient automation. Strictly implement exception handling for each step. Include clear comments and documentation throughout the code.
+Rules: Include a class constructor.
+
+Strictly use Expected Conditions wherever needed. Each operation should be encapsulated in a method with proper parameterization. Implement a logging mechanism to capture important actions and errors for debugging. Consider parameterization for data-driven testing.
+Task: Generate a Python Selenium Automation script using page class for the following UseCase.
+UseCase:
+
+1. Open the Orange HRM login page.
+
+
+2. Enter valid login credentials, username as "Admin" and password as "Test123".
+
+
+3. Click on the login button
