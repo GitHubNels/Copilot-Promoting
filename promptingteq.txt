@@ -1,0 +1,3 @@
+Key Feature:
+1. Open related files open in git hub copliot to have better results
+2. In Few cases copilot needs a code snippet so that it will generated the code as expected
