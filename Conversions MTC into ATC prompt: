@@ -1,0 +1,15 @@
+Conversions MTC into ATC prompt:
+
+Create a Page Object Class for the login page according the below manual steps. Import necessary libraries from selenium and define all necessary locators with their methods.
+Implement the Page Object Class for the webpage according to the below test steps having the correct locators, developing a class to encapsulate elements and methods. The code must strictly follow POM principles for maintainable and efficient automation.
+Strictly implement exception handling for each step.
+Include clear comments and documentation throughout the code.
+Adhere to the below Additional instructions.
+
+Include a class constructor.
+
+Strictly use Expected Conditions wherever needed.
+
+Each operation should be encapsulated in a method with proper parameterization.
+
+Implement a logging mechanism to capture important actions and errors for debugging.
