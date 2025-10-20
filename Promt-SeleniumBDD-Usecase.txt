@@ -1,4 +1,4 @@
-//Prompt to create a Test case in BDD cuccumber
+//Simple  - Prompt to create a Test case in BDD cuccumber
 
 Generate a BDD feature file for Use Case that I am providing as: [Use Case].
 ENSURE:
@@ -15,3 +15,28 @@ Step1: Open the Orange HRM login page.
 Step2: Enter valid login credentials.
 Step3: Click on the login button.
 Step4: Verify that the login is successful by performing a validation
+
+//complex Prompt  - Like you can use the user story and get results
+
+Act as expert in creation comprehesive end to end BDD in gerkin language accoring to the given 
+
+Userstory:
+Login and Validate in Orange HRM.
+I want to log in to Orange HRM application,
+So that I can perform a validation task after successful login.
+Acceptance Criteria:
+
+The user can log in with valid credentials.
+After successful login, the user can perform a validation task.
+
+Additional Instructions:
+
+Add Data tables or examples for data-driven testing.
+Strictly generate positive and negative scenarios.
+Prioritize clarity and reusability.
+Add Scenario tag for categorization.
+Should Include comments for context and explanations.
+Given, When, and Then steps STRICTLY should thoroughly cover the test scenario.
+Strictly include background step.
+Add validations wherever necessary.
+Do not hardcode any user data within the BDD scenario.
