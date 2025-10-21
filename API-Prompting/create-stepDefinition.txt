@@ -1,0 +1,29 @@
+//Creation of Step defintion using JAVA/Python
+
+Act as an Test Engineer Expert and create step definition Java or Python class for an API testcase written in a feature file. Below is the API test in BDD
+
+API Test feature file:
+
+Ensure:
+
+Inside step definition, add method which will call all methods in given sequence.
+
+Write the code for step definition with using proper given, when, then annotations for scenarios as per feature_file.
+
+STRICTLY write all the ‘Given’, ‘When’, ‘Then’ and ‘And’ methods in the same sequence according to feature file.
+
+Include TestNG tags.
+
+Include a class constructor.
+
+Implement setup and teardown methods.
+
+Should assert the status code.
+
+Add necessary headers.
+
+Validate the keys in the json response.
+
+Strictly implement exception handling.
+
+For each line of the BDD strictly define a complete method and add the respective gherkin tag to the method.
