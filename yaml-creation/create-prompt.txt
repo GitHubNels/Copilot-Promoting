@@ -1,0 +1,15 @@
+Create a detailed pipeline yaml script utilising selenium docker image for the given steps:
+
+1. Pipeline automation yaml file with container name as UnifiedFramework
+
+
+2. running on selenium-hub
+
+
+3. use image selenium/node-chrome
+
+
+4. hub-port as 4444
+
+
+5. save reports in volume "user/app/reports/"
