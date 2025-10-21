@@ -1,0 +1,4 @@
+Provide documentation building upon the code provided below.
+Describe its purpose, description, steps. Make sure the comment is complete.
+Highlighting key actions, expected outcomes, and data flow.
+Include details and explanations to describe the code’s behavior.
