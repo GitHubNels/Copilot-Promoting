@@ -1,3 +1,6 @@
+1. Prompt to Debug the code:
+----------------------------
+
 Behave as a QA Expert and debug the code for any errors and fix with best practices.
 The solution should have an improved code snippet that aligns with best practices.
 Prioritize to check if the code follows all Java coding standards with optimization.
@@ -14,3 +17,10 @@ Provide measures to avoid similar issues in the future.
 Correct all the bad coding practices
 
 #file test.java and test.feature
+
+
+2. Fix globally :
+----------------
+Another command for fixing the globally:
+
+prompt in VS code: @workspace /file #file : test.java
