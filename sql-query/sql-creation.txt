@@ -1,0 +1,12 @@
+I have a SQLite database Records.db. In that database there is a table having records of all the employees in the organization.
+Provide the code for connecting with the database successfully in python and a method to perform the below action.
+
+Action to be performed: SQL query to display emp_name, emp_salary, dept_id of those employees whose emp_salary is greater than or equal to the emp_salary of the employees whose emp_no is equal to 103.
+
+Ensure:
+
+Write the code in a form of a database test. Use Pytest tags.
+
+Include setup and teardown methods.
+
+Ensure exceptions are handled properly.
