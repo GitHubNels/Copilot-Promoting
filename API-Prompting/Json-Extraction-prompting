@@ -10,6 +10,11 @@ Generate the json path for each value from the nested json so that it can be use
 Ensure to follow below instructions:
 
 1. Strictly consider the whole file.
-
-
 2. Strictly only generate the jsonpaths.
+
+2. extract the value present in the json - prompt
+-------------------------------------------------
+
+Given is the data in json file: SampleData.json
+In json format, generate a code in python to extract the value present in the json from the given jsonpath below:
+$.attributes[3].name
