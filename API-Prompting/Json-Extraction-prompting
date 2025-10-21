@@ -1,1 +1,15 @@
+1. Extraction json path from the below prompt
+---------------------------------------------
 
+Behaviour as an expert in jsonpath identification.
+Given is the data in json format.
+#FixSampleData.json
+In the given json there are list having multiple nested jsons inside.
+Generate the json path for each value from the nested json so that it can be used for other sections.
+
+Ensure to follow below instructions:
+
+1. Strictly consider the whole file.
+
+
+2. Strictly only generate the jsonpaths.
