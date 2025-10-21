@@ -1,0 +1,14 @@
+Behave as a QA Expert and debug the code for any errors and fix with best practices.
+The solution should have an improved code snippet that aligns with best practices.
+Prioritize to check if the code follows all Java coding standards with optimization.
+Incorporate usage of exception handling to make it more robust.
+
+Adhere to the below Additional instructions:
+
+Improve quality of the code.
+
+Include clear comments and documentation throughout the code.
+
+Provide measures to avoid similar issues in the future.
+
+Correct all the bad coding practices
