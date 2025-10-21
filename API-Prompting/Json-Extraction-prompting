@@ -18,3 +18,10 @@ Ensure to follow below instructions:
 Given is the data in json file: SampleData.json
 In json format, generate a code in python to extract the value present in the json from the given jsonpath below:
 $.attributes[3].name
+
+3. Create a POJO class  - Promt
+
+Create a POJO class for a json body having the below fields. The Pojo class should have all the getters and setters methods for the given fields:
+petId: 12345
+petName: 'Tommy'
+petStatus: 'Available'
