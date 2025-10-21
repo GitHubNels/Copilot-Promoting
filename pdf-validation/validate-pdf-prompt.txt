@@ -1,0 +1,28 @@
+As a tester, I want to verify that the PDF contains specific images so that I can ensure the content is accurate.
+
+Acceptance Criteria:
+The test should identify and extract images from the PDF.
+The test should compare the extracted images with expected images.
+The test should report any discrepancies.
+
+Steps:
+
+1. Navigate to the URL where the PDF is located.
+
+
+2. Locate the download link/button and click it to download the PDF.
+
+
+3. Wait for a few seconds to ensure the PDF is downloaded.
+
+
+4. Use Apache PDFBox to load the downloaded PDF.
+
+
+5. Extract images from the PDF.
+
+
+6. Compare each extracted image with the expected image.
+
+
+7. Report the result of the validation.
