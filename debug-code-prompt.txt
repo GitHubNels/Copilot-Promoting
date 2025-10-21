@@ -24,3 +24,27 @@ Correct all the bad coding practices
 Another command for fixing the globally:
 
 prompt in VS code: @workspace /file #file : test.java
+
+
+3. Code optmization - prompt
+---------------------------
+
+Behave as a QA Analyst and review the code and provide feedbacks only.
+Review the code and provide feedback on the basis of below points:
+
+Strictly check for Code Quality.
+
+Check for code optimization, reusability and efficiency.
+
+Check for the best practices and coding standards.
+
+Check for the exception handling and edge cases.
+
+Check for any edge cases or scenarios where the code might fail.
+
+Check for any bad coding practice.
+
+Check if the code is written in a way that is easy to understand and maintain.
+
+Check if the code has any opportunities to refactor the code to make it better.
+#file Trst.java
